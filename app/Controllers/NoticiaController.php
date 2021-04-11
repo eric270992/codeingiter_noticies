@@ -35,6 +35,12 @@ class NoticiaController extends Controller{
         var_dump($results);
     }
 
+    function getNoticiesPageNew($page){
+        $noticiaModel = new NoticiaModel();
+        $results = $noticiaModel->getNoticiesPageNew($page);
+        var_dump($results);
+    }
+
     /* GroceryCRUD */
     function grocery(){
         $crud = new GroceryCrud();

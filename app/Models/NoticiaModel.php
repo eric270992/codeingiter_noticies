@@ -41,7 +41,11 @@ class NoticiaModel extends Model{
 
     //Funcio que retorna totes les noticies amb query builder
     public function getNoticiesNew(){
-        $builder = $this->db->table("Noticies");
+        $builder = $this->db->table("Noticies as n");
+        $builder->select('n.Id, n.Titol, n.Contingut, c.Nom as Categoria, i.Nom as imatge_nom');
+        $builder->join('noticies_categories as nc','n.Id = nc.id_noticia');
+        $builder->join('categories as c','c.Id = nc.id_categoria');
+        $builder->join('imatges as i', 'n.imatge_id = i.Id','left');
         $query = $builder->get()->getResultArray();
         return $query;
     }
@@ -65,6 +69,15 @@ class NoticiaModel extends Model{
         return $resultats;
     }
 
+    public function getNoticiesPageNew($page){
+        $builder = $this->db->table("Noticies as n");
+        $builder->select('n.Id, n.Titol, n.Contingut, c.Nom as Categoria, i.Nom as imatge_nom');
+        $builder->join('noticies_categories as nc','n.Id = nc.id_noticia');
+        $builder->join('categories as c','c.Id = nc.id_categoria');
+        $builder->join('imatges as i', 'n.imatge_id = i.Id','left');
+        $query = $builder->get()->getResultArray();
+        return $query;
+    }
 
 
 
