@@ -23,8 +23,11 @@
             <div class="col-xs-3 col-md-3">
                 <div class="card">
                     <div class="card-header">
-                        <img class="card-img-top"
-                            src="<?php echo('http:\\\\'.$_SERVER['SERVER_NAME'].':8080'.'/img/'.esc($noticia['imatge_nom'])); ?>"
+                        <!-- <img class="card-img-top"
+                            src="<?php //echo('http:\\\\'.$_SERVER['SERVER_NAME'].':8080'.'/img/'.esc($noticia['imatge_nom'])); ?>"
+                            alt="Card image cap"> -->
+
+                        <img class="card-img-top" src="<?php echo('/pac2/public/img/'.esc($noticia['imatge_nom'])); ?>"
                             alt="Card image cap">
                         <h2>
                             <a href="/noticia/<?php echo($noticia['noticia_id'])?>"><?= esc($noticia['Titol'])?></a>
