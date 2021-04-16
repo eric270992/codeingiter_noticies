@@ -1,0 +1,13 @@
+CRITICAL - 2021-04-11 17:19:37 --> syntax error, unexpected '[', expecting ';' or ','
+#0 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\P...')
+#1 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\GroceryC...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\GroceryC...')
+#3 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(4392): spl_autoload_call('Config\\GroceryC...')
+#4 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(4441): App\Libraries\GroceryCrud->_initialize_variables()
+#5 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#6 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(51): App\Libraries\GroceryCrud->render()
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#8 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#9 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

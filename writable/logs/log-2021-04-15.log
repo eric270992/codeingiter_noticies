@@ -1,0 +1,24 @@
+CRITICAL - 2021-04-15 07:27:41 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\PAC2\app\Config\Routes.php on line 55
+#0 C:\wamp64\www\PAC2\app\Config\Routes.php(55): CodeIgniter\Router\RouteCollection->resource('gr/noticies', 'NoticiaControll...')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-15 07:36:17 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2021-04-15 07:36:17 --> Unable to connect to the database.
+#0 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(1532): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(1575): CodeIgniter\Database\BaseConnection->listTables()
+#3 C:\wamp64\www\PAC2\app\Models\GroceryCrudModel.php(43): CodeIgniter\Database\BaseConnection->tableExists('noticies')
+#4 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(635): App\Models\GroceryCrudModel->db_table_exists('noticies')
+#5 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(4970): App\Libraries\grocery_CRUD_Model_Driver->table_exists('noticies')
+#6 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#7 C:\wamp64\www\PAC2\app\Libraries\GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#8 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(51): App\Libraries\GroceryCrud->render()
+#9 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#10 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#11 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}

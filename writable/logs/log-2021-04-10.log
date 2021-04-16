@@ -1,0 +1,1031 @@
+CRITICAL - 2021-04-10 01:01:16 --> Call to a member function select() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 01:03:37 --> Call to a member function select() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 01:03:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 01:06:31 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 01:44:47 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\PAC2\system\View\View.php(220): include()
+#1 C:\wamp64\www\PAC2\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\PAC2\system\Common.php(1217): CodeIgniter\View\View->render('noticies/notici...', Array, true)
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(28): view('noticies/notici...', Array)
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 11:02:23 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:02:35 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:02:36 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:02:36 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:02:36 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:15:59 --> Too few arguments to function App\Models\NoticiaModel::getNoticiesByCategoria(), 0 passed in C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php on line 34 and exactly 1 expected
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:16:34 --> Too few arguments to function App\Models\NoticiaModel::getNoticiesByCategoria(), 0 passed in C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php on line 34 and exactly 1 expected
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:18:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 11:19:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-10 11:27:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:27:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('4')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('4')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:43:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('4')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('4')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:44:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:44:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('2')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:44:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('3')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('3')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:44:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('3')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('3')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:46:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('3')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('3')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 11:46:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':catId' at line 4 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id, n....')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id, n....')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id, n....')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT n.Id, n....', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-10 12:02:35 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:02:42 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:02:43 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:02:43 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:03:49 --> Access level to App\Models\NoticiaModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-10 12:03:57 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(34): App\Models\NoticiaModel->getNoticiesByCategoria('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesByCategoria('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:04:10 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:04:19 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:04:23 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:04:23 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:04:23 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:05:01 --> Call to a member function query() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:05:20 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:05:20 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 12:05:20 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 15:59:34 --> Call to a member function paginate() on array
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 16:00:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:00:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-10 16:08:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(57): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('1')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('1')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:09:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('1')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('1')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:10:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('2')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:10:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''2''' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('2')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:13:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('2')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:14:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OFF 4' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('4')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('4')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:15:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*5' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('2')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 16:15:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*5' at line 5 in C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\PAC2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT n.Id as ...')
+#1 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT n.Id as ...')
+#2 C:\wamp64\www\PAC2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT n.Id as ...')
+#3 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT n.Id as ...', Array)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(24): App\Models\NoticiaModel->getNoticiesPage('1')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->getNoticiesPage('1')
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-10 16:32:30 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(70): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:34:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::find()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:34:20 --> Call to a member function find() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:34:27 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(70): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:34:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::find()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:35:23 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:35:41 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, 1)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find(1)
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:35:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, 1)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find(1)
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:35:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, 1)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find(1)
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:37:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:37:12 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:37:12 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:37:18 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:37:18 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:37:18 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:38:21 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:39:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::find()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:40:02 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 170
+#0 C:\wamp64\www\PAC2\system\Model.php(170): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '2')
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(71): CodeIgniter\BaseModel->find('2')
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:41:36 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(72): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:41:57 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(72): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:41:58 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(72): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:41:58 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(72): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:41:58 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(72): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:42:00 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:01 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:21 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:21 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:21 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:22 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:22 --> Call to a member function query() on string
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(16): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 16:42:34 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:42:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:42:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:42:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:43:20 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiesRestController.php(31): App\Models\NoticiaModel->getNoticiaById('2')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiesRestController->singleNoticia('2')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiesRestController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:43:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(28): App\Models\NoticiaModel->getNoticiaById('5')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->singleNoticia('5')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:44:13 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(28): App\Models\NoticiaModel->getNoticiaById('5')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->singleNoticia('5')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 16:44:14 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(73): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(28): App\Models\NoticiaModel->getNoticiaById('5')
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->singleNoticia('5')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-10 18:12:25 --> Call to a member function library() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:12:53 --> Class 'App\Controllers\grocery_CRUD' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:12:54 --> Class 'App\Controllers\grocery_CRUD' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:12:54 --> Class 'App\Controllers\grocery_CRUD' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:13:17 --> Call to a member function library() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:13:51 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:13:52 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:13:52 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:14:24 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-10 18:14:25 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-10 18:14:25 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-10 18:18:25 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:19:13 --> Call to a member function library() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:21:13 --> Call to a member function library() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:21:23 --> Call to undefined method App\Controllers\NoticiaController::library()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:21:24 --> Call to undefined method App\Controllers\NoticiaController::library()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:21:24 --> Call to undefined method App\Controllers\NoticiaController::library()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:21:24 --> Call to undefined method App\Controllers\NoticiaController::library()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:26:53 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:27:06 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:27:49 --> Call to a member function library() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:27:56 --> Call to undefined method App\Libraries\GroceryCrud::set_table()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:28:14 --> Argument 2 passed to view() must be of the type array, object given, called in C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php on line 39
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(39): view('noticies/notici...', Object(stdClass))
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 18:28:40 --> Call to undefined method App\Controllers\NoticiaController::_exampleOutput()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-10 18:36:24 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\PAC2\app\Views\noticies\noticies.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\P...', 21, Array)
+#1 C:\wamp64\www\PAC2\system\View\View.php(220): include('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\PAC2\system\Common.php(1217): CodeIgniter\View\View->render('noticies/notici...', Array, true)
+#4 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(44): view('noticies/notici...', Array)
+#5 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(39): App\Controllers\NoticiaController->_exampleOutput(Object(stdClass))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#7 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#8 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-10 18:37:52 --> Argument 2 passed to view() must be of the type array, object given, called in C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php on line 44
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(44): view('noticies/notici...', Object(stdClass))
+#1 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(39): App\Controllers\NoticiaController->_exampleOutput(Object(stdClass))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-10 18:49:21 --> Call to a member function table() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(34): App\Models\NoticiaModel->getNoticiesNew()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesNew()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 18:51:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(34): App\Models\NoticiaModel->getNoticiesNew()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesNew()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 18:54:41 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\PAC2\app\Config\Routes.php on line 54
+#0 C:\wamp64\www\PAC2\app\Config\Routes.php(54): CodeIgniter\Router\RouteCollection->resource('gr/noticies', 'NoticiaControll...')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 19:01:24 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\PAC2\app\Config\Routes.php on line 54
+#0 C:\wamp64\www\PAC2\app\Config\Routes.php(54): CodeIgniter\Router\RouteCollection->resource('gr/noticies', 'NoticiaControll...')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:08:54 --> Argument 1 passed to App\Libraries\GroceryCrud::columns() must be of the type array, string given, called in C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php on line 43
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(43): App\Libraries\GroceryCrud->columns('Id', 'Titol', 'Contingut')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->grocery()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:48:19 --> Call to a member function paginate() on array
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(40): App\Models\NoticiaModel->getNoticiesPageNew('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesPageNew('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:48:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(40): App\Models\NoticiaModel->getNoticiesPageNew('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesPageNew('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:48:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(40): App\Models\NoticiaModel->getNoticiesPageNew('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesPageNew('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:48:39 --> Call to a member function paginate() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(40): App\Models\NoticiaModel->getNoticiesPageNew('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesPageNew('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:51:23 --> Call to a member function paginate() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(41): App\Models\NoticiaModel->getNoticiesPageNew('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesPageNew('1')
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 20:51:56 --> Call to a member function getNoticiesPageNew() on array
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->getNoticiesPageNew('1')
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

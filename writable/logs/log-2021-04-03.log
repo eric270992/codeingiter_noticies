@@ -1,0 +1,239 @@
+CRITICAL - 2021-04-03 17:26:33 --> Call to a member function view() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 19:26:14 --> Class 'App\Controllers\Noticia' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 19:30:13 --> Call to undefined function App\Controllers\carregarModelNoticia()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 19:34:36 --> Call to undefined function App\Controllers\carregarModelNoticia()
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 19:34:57 --> Call to a member function model() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(14): App\Controllers\NoticiaController->carregarModelNoticia()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 19:44:17 --> Call to a member function model() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(14): App\Controllers\NoticiaController->carregarModelNoticia()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 19:45:31 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:08:28 --> Call to a member function model() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(14): App\Controllers\NoticiaController->carregarModelNoticia()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 20:09:25 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:23:58 --> Call to a member function model() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(15): App\Controllers\NoticiaController->carregarModelNoticia()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 20:24:02 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:34:51 --> Cannot call constructor
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(908): App\Controllers\NoticiaController->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:35:02 --> Call to a member function getNoticies() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:35:29 --> Call to a member function getNoticies() on null
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:42:19 --> Class 'NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:42:56 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:42:59 --> Class 'NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:18 --> Class 'NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:31 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:32 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:32 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:32 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:33 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:43:33 --> Class 'Models\NoticiaModel' not found
+#0 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-03 20:44:35 --> Call to a member function database() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(19): App\Models\NoticiaModel->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 20:45:02 --> Call to a member function database() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(19): App\Models\NoticiaModel->__construct()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 20:47:54 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(31): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-03 20:47:55 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(31): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-03 20:48:49 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(31): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-03 20:49:33 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(31): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-03 20:51:59 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(30): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-03 20:56:17 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#1 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#2 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#3 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-03 20:57:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(31): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-03 20:58:08 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\PAC2\system\Model.php on line 214
+#0 C:\wamp64\www\PAC2\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\PAC2\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\PAC2\app\Models\NoticiaModel.php(19): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\PAC2\app\Controllers\NoticiaController.php(20): App\Models\NoticiaModel->getNoticies()
+#4 C:\wamp64\www\PAC2\system\CodeIgniter.php(936): App\Controllers\NoticiaController->index()
+#5 C:\wamp64\www\PAC2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticiaController))
+#6 C:\wamp64\www\PAC2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\PAC2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
