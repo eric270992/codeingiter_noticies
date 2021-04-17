@@ -1585,7 +1585,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
         $data->columns 				= $this->get_columns();
         $data->primary_key 			= $this->get_primary_key();
 
-        @ob_end_clean();
+@ob_end_clean();
         $this->_export_to_excel($data);
     }
 
@@ -1637,7 +1637,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
         $data->columns 				= $this->get_columns();
         $data->primary_key 			= $this->get_primary_key();
 
-        @ob_end_clean();
+@ob_end_clean();
         $this->_print_webpage($data);
     }
 
@@ -1704,7 +1704,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
         $this->set_echo_and_die();
 
         $total_results = (int)$this->get_total_results();
-        @ob_end_clean();
+@ob_end_clean();
         echo json_encode(array('total_results' => $total_results));
         die();
     }
@@ -1890,7 +1890,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
 
     protected function delete_layout($delete_result = true)
     {
-        @ob_end_clean();
+@ob_end_clean();
         if($delete_result === false)
         {
             $error_message = '<p>'.$this->l('delete_error_message').'</p>';
@@ -1927,7 +1927,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
 
     protected function insert_layout($insert_result = false)
     {
-        @ob_end_clean();
+@ob_end_clean();
         if($insert_result === false)
         {
             echo json_encode(array('success' => false));
@@ -1964,7 +1964,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
 
     protected function validation_layout($validation_result)
     {
-        @ob_end_clean();
+@ob_end_clean();
         echo json_encode($validation_result);
         $this->set_echo_and_die();
     }
@@ -2087,7 +2087,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
 
     protected function update_layout($update_result = false, $state_info = null)
     {
-        @ob_end_clean();
+@ob_end_clean();
         if($update_result === false)
         {
             echo json_encode(array('success' => $update_result));
@@ -2751,7 +2751,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
         //This is a $_POST request rather that $_GET request , because
         //Codeigniter doesn't like the $_GET requests so much!
         if ($this->_is_ajax()) {
-            @ob_end_clean();
+@ob_end_clean();
             $results= (object)array(
                 'output' => $this->views_as_string,
                 'js_files' => array_values($this->get_js_files()),
@@ -2801,7 +2801,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
         include($path);
 
         $buffer = ob_get_contents();
-        @ob_end_clean();
+@ob_end_clean();
         #endregion
 
         if ($return === TRUE)

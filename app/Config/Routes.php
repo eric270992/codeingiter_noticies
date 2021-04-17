@@ -46,15 +46,40 @@ $routes->get("/noticiesTest",'NoticiaController::getNoticiesNew');
 $routes->get("/noticiesTest/(:num)",'NoticiaController::getNoticiesPageNew/$1');
 
 /* API ROUTES */
-$routes->get('api/noticies', 'NoticiesRestController::index');
+$routes->get('api/noticies/', 'NoticiesRestController::index');
 $routes->get('api/noticies/(:num)', 'NoticiesRestController::getNoticiesPage/$1');
 $routes->get('api/noticia/(:num)','NoticiesRestController::singleNoticia/$1');
 $routes->get('api/categoria/(:num)','NoticiesRestController::getNoticiesByCategoria/$1');
+$routes->get('api/(:any)','NoticiesRestController::getNoticiesByCategoriaNom/$1');
 
 /* GROCERYCRUD */
 $routes->get('gr/noticies', 'NoticiaController::grocery');
-$routes->get('gr/noticies/add', 'NoticiaController::grocery');
-$routes->get('gr/noticies/edit/(:num)', 'NoticiaController::grocery');
+$routes->get('gr/noticies/add/', 'NoticiaController::grocery');
+$routes->get('gr/noticies/edit/(:num)', 'NoticiaController::grocery/$1');
+$routes->get('gr/noticies/delete/(:num)', 'NoticiaController::grocery/$1');
+$routes->post('gr/noticies/insert_validation','NoticiaController::grocery');
+$routes->post('gr/noticies/insert','NoticiaController::grocery');
+$routes->post('gr/noticies/update_validation/(:num)','NoticiaController::grocery/$1');
+$routes->post('gr/noticies/update/(:num)','NoticiaController::grocery/$1');
+
+$routes->get('gr/categories', 'CategoriaController::grocery');
+$routes->get('gr/categories/add/', 'CategoriaController::grocery');
+$routes->get('gr/categories/edit/(:num)', 'CategoriaController::grocery/$1');
+$routes->get('gr/categories/delete/(:num)', 'CategoriaController::grocery/$1');
+$routes->post('gr/categories/insert_validation','CategoriaController::grocery');
+$routes->post('gr/categories/insert','CategoriaController::grocery');
+$routes->post('gr/categories/update_validation/(:num)','CategoriaController::grocery/$1');
+$routes->post('gr/categories/update/(:num)','CategoriaController::grocery/$1');
+
+$routes->get('gr/imatges', 'ImatgeController::grocery');
+$routes->get('gr/imatges/add/', 'ImatgeController::grocery');
+$routes->get('gr/imatges/edit/(:num)', 'ImatgeController::grocery/$1');
+$routes->get('gr/imatges/delete/(:num)', 'ImatgeController::grocery/$1');
+$routes->post('gr/imatges/insert_validation','ImatgeController::grocery');
+$routes->post('gr/imatges/insert','ImatgeController::grocery');
+$routes->post('gr/imatges/update_validation/(:num)','ImatgeController::grocery/$1');
+$routes->post('gr/imatges/update/(:num)','ImatgeController::grocery/$1');
+
 
 
 /*

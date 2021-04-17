@@ -15,21 +15,25 @@ class NoticiesRestController extends ResourceController{
        $noticiaModel = new NoticiaModel();
        $noticies = $noticiaModel->getNoticies();
        $data=array("noticies"=>$noticies);
-        return json_encode($data);
+        //return json_encode($data);
+       return $this->respond($data);
+
         
     }
 
     function getNoticiesPage($pagina){
         $noticiaModel = new NoticiaModel();
         $noticies = $noticiaModel->getNoticiesPage($pagina);
-        return json_encode($noticies);
+       // return json_encode($noticies);
+       return $this->respond($noticies);
     }
 
     //Rebrem el id de la noticia a recuperar.
     function singleNoticia($id){
         $noticiaModel = new NoticiaModel();
         $noticia = $noticiaModel->getNoticiaById($id);
-        return json_encode($noticia);
+        //return json_encode($noticia);
+        return $this->respond($noticia);
     }
 
     //Retornar noticies segons categoria
@@ -37,5 +41,7 @@ class NoticiesRestController extends ResourceController{
         $noticiaModel = new NoticiaModel();
         $noticies = $noticiaModel->getNoticiesByCategoria($idCategoria);
         return json_encode($noticies);
+        //return $this->respond($noticies);
+
     }
 }

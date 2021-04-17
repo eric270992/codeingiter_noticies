@@ -46,7 +46,16 @@ class NoticiaController extends Controller{
         $crud = new GroceryCrud();
         $crud->setTable('noticies');
         $crud->setTheme('datatables');
-        $crud->columns(['Id','Titol','Contingut']);
+        //Relació 1-1 una noticia té una imatge associada
+        $crud->setRelation('imatge_id','imatges','Nom');
+        //Relació N-M una imatge pot estar a més de una noticia i una noticia tenir més de una imatge
+        /*
+            Els valors són ('nomAmbQueMostraremColumna','nomTaulaIntermedia','TaulaSecundariaRelacio','IDTaulaActual','IDTaulaSecundaria','ColumnesSeleccio')
+        */
+        $crud->setRelationNtoN('categories','noticies_categories','categories','id_noticia','id_categoria','Nom');
+        $crud->columns(['Id','Titol','Contingut','imatge_id','categories']);
+        $crud->displayAs('imatge_id','Nom Imatge');
+
 
         $output = $crud->render();
 
